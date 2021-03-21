@@ -20,7 +20,7 @@
 ### Deploy:
 *Deploy is Straight Forward. Follow these steps 👇*
 - Star this repo 😉
-- Copy the code of <code>[worker.js](https://github.com/cachecleanerjeet/Zee5/blob/main/worker.js "worker.js")</code>
+- Copy the code of <code>[worker.js](https://github.com/Redop1189/Zee5/blob/main/worker.js "worker.js")</code>
 - Create a [Cloudflare Worker](https://workers.cloudflare.com "Cloudflare Worker")
 - Paste the copied code
 - Save & Deploy
