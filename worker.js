@@ -9,7 +9,7 @@ async function handleRequest(request) {
     var videoQuery = new URL(request.url).searchParams.get('url')
 
     if (videoPath == "/" && videoQuery == null) {
-        return Response.redirect("https://github.com/cachecleanerjeet/Zee5", 301)
+        return Response.redirect("https://github.com/Redop1189/Zee5", 301)
     } else {
         if (videoPath == "/") {
             var videoId = videoQuery.split("/").pop()
@@ -32,7 +32,7 @@ async function handleRequest(request) {
                     "Content-Type": "text/html",
                     "Cache-Control": "no-cache, no-store, must-revalidate",
                     "Access-Control-Allow-Origin": "*",
-                    "Made-By": "https://github.com/cachecleanerjeet"
+                    "Made-By": "https://github.com/Redop1189"
                 })
             })
         } else {
@@ -47,7 +47,7 @@ async function handleRequest(request) {
                     "Content-Type": "text/html",
                     "Cache-Control": "no-cache, no-store, must-revalidate",
                     "Access-Control-Allow-Origin": "*",
-                    "Made-By": "https://github.com/cachecleanerjeet"
+                    "Made-By": "https://github.com/Redop1189"
                 })
             })
         }
